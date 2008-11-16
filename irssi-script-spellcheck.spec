@@ -15,6 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_scriptdir	%{_prefix}/share/irssi/scripts
 
+# requires perl(Irssi) >= 20070804, but Irssi provides only 0.9
+%define		_noautoreq 'perl(Irssi)'
+
 %description
 Works as you type, marking words when Aspell thinks a word was
 misspelled.
