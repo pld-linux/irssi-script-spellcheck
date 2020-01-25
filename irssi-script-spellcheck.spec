@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Irssi script to check for spelling errors using Aspell
 Name:		irssi-script-spellcheck
 Version:	0.4
